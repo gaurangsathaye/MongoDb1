@@ -14,4 +14,3 @@ processManagement:
    fork: true
 net:
    port: 27402
-   bindIpAll: true

@@ -1,3 +1,5 @@
+source ./setPath.sh
+
 mongod --config configs/shard1Repl1
 
 mongod --config configs/shard1Repl2
