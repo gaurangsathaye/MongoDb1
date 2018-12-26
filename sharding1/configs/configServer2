@@ -1,0 +1,16 @@
+sharding:
+  clusterRole: configsvr
+replication:
+  replSetName: configServerReplSetNameA
+systemLog:
+   destination: file
+   path: "logs/configServer2.log"
+   logAppend: false
+storage:
+   dbPath: data/configServer2
+   journal:
+      enabled: true
+processManagement:
+   fork: true
+net:
+   port: 27202
